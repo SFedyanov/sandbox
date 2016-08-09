@@ -1,0 +1,27 @@
+body {
+  font-family: Verdana;
+  font-size: 13px;
+  color: #333;
+  background: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  color: #cb2c2c;
+}
+
+ul.list1 {
+  color: green;
+}
+
+#about {
+  color: blue;
+}
+
+.list1 > li {
+  border-bottom: 1px dashed black;
+}
+
+h4 + li {
+  color: red;
+}
