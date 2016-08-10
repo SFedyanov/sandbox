@@ -1,8 +1,8 @@
 body {
   font-family: Verdana;
   font-size: 13px;
-  color: #333;
-  background: #f3f3f3;
+  color: #9E8E76;
+  background: #FFF;
 }
 
 a {
@@ -11,17 +11,31 @@ a {
 }
 
 ul.list1 {
-  color: green;
+  color: 4F5B67;
 }
 
 #about {
-  color: blue;
+  color: 5E7389;
 }
 
 .list1 > li {
-  border-bottom: 1px dashed black;
+  border-bottom: 1px dashed #89642D;
 }
 
 h4 + li {
-  color: red;
+  color: #D2B68B;
+}
+
+:link {
+  color: #89642D;
+  border-bottom: 1px dashed #89642D;
+}
+:visited {
+  color: #1F3B59;
+  border-bottom: 1px dashed #1F3B59;
+}
+
+a:hover {
+  color: #89642D;
+  background: #A2B3C4;
 }
